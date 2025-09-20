@@ -1,0 +1,51 @@
+header, footer {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px black;
+}
+
+section {
+    margin: 20px 0;
+    border: 1px lightcyan;
+    padding: 10px;
+    background-color: lightcyan;
+    font-size: .9rem;
+}
+
+section p {
+    margin: 10px;
+    
+}
+
+ul {
+    margin: 5px 10px;
+    padding: 5px;
+}
+
+footer {
+    font-size: .9rem;
+}
