@@ -111,8 +111,8 @@ padding: 10px 20px;
 }
 
 .history {
- padding: 2rem;
-  max-width: 900px;     
+  padding: 2rem;
+  max-width: 1200px;
   margin: 0 auto;
   color: #F7941D;
   font-family: Arial, sans-serif;
@@ -127,32 +127,17 @@ padding: 10px 20px;
 
 .history_items {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
-  align-items: stretch;
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 2rem; 
+  align-items: start;
 }
 
 .history-caption {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;  
-  height: 100%;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+  min-width: 250px;
 }
-
-.history-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.history-image img {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 5px black;
-}
-
 
 .adventure {
   text-align: center;
@@ -168,8 +153,7 @@ padding: 10px 20px;
 }
 
 .footer-content{
-  padding: 1px;
-  border-top: 1px solid black;
+  padding: 2em;
 }
 
 .social-link{
