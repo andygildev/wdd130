@@ -290,7 +290,7 @@ section {
   font-size: 1.5rem
 }
 
-.contact h2 {
+.contact h2, h3, h4, h5 {
   color: var(--accent1-color);
   font-size: 1.3rem
 
