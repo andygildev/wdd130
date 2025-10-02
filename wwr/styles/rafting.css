@@ -278,3 +278,20 @@ section {
 .employee h2 {
   text-align: center;
 }
+
+.contact h1 {
+  position: static; 
+  background: none;
+  color: var(--secondary-color);
+  opacity: 1;
+  margin-bottom: 1rem;
+  padding: 0;
+  text-size-adjust: 2px;
+  font-size: 1.5rem
+}
+
+.contact h2 {
+  color: var(--accent1-color);
+  font-size: 1.3rem
+
+}
