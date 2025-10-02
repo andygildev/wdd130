@@ -1,62 +1,61 @@
 :root {
---primary-color: #faf9f6; 
---secondary-color: #0a9396;
---accent1-color: #ee9b00; 
---accent2-color: #00008b; 
---heading-font: "Montserrat", sans-serif;
---body-font: "Roboto", sans-serif;
+  --primary-color: #faf9f6; 
+  --secondary-color: #0a9396;
+  --accent1-color: #ee9b00; 
+  --accent2-color: #00008b; 
+  --heading-font: "Montserrat", sans-serif;
+  --body-font: "Roboto", sans-serif;
 }
 
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-font-family: var(--body-font);
-color: var(--accent1-color);
+  font-family: var(--body-font);
+  color: var(--accent1-color);
 }
 
 header, main, footer {
-width: 840px;
-margin: 0 auto;
+  width: 840px;
+  margin: 0 auto;
 }
 
 h1, h2 {
-font-family: var(--heading-font);
-color: var(--secondary-color);
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
 }
 
 nav, p, section, article {
-margin: 16px;
-padding: 8px;
+  margin: 16px;
+  padding: 8px;
 }
 
 .socialmedia a {
-text-decoration: none;
+  text-decoration: none;
 }
 
 .hero {
-position: relative;
+  position: relative;
 }
 
 .hero img {
-display: block;
-width: 100%;
-height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-
 h1 {
-position: absolute;
-top: 20px;
-width: 100%;
-padding: 16px;
-text-align: center;
-opacity: 0.7;
-background-color: var(--accent1-color);
-color: #fff;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff;
 }
 
 .hero article img {
@@ -64,6 +63,7 @@ color: #fff;
   width: 125px;
   margin-left: 8px;
 }
+
 .hero article {
   position: absolute;
   top: 80px;     
@@ -74,44 +74,44 @@ color: #fff;
 }
 
 header {
-background-color: #892b64;
-color: var(--accent2-color);
-overflow: hidden;
+  background-color: #892b64;
+  color: var(--accent2-color);
+  overflow: hidden;
 }
 
 .header-container {
-display: grid;
-grid-template-columns: 1fr 3fr;
-align-items: center;
-padding: 1rem;
-background-color: #0c4a6e;
-color: white;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  padding: 1rem;
+  background-color: #0c4a6e;
+  color: white;
 }
 
 .logo {
-max-width: 100px;
+  max-width: 100px;
 }
 
 ul {
-display: flex;
-justify-content: flex-end;
-gap: 1rem;
-list-style: none;
-padding: 0;
-margin-right: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin-right: 5rem;
 }
 
 nav ul.navlinks li a {
-color: white;
-text-decoration: none;
-font-weight: bold;
-border: 1px solid white;
-border-radius: 8px;
-padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 10px 20px;
 }
 
 .history {
- padding: 2rem;
+  padding: 2rem;
   max-width: 900px;     
   margin: 0 auto;
   color: #F7941D;
@@ -153,7 +153,6 @@ padding: 10px 20px;
   box-shadow: 0 4px 5px black;
 }
 
-
 .adventure {
   text-align: center;
   padding: 2em;
@@ -167,21 +166,21 @@ padding: 10px 20px;
   padding: 2em;
 }
 
-.footer-content{
+.footer-content {
   padding: 1px;
   border-top: 1px solid black;
 }
 
-.social-link{
+.social-link {
   display: flex;
   gap: 2rem;
 }
 
-.social-link p{
+.social-link p {
   padding-left: 6rem;
 }
 
-.social-link nav{
+.social-link nav {
   padding-left: 7rem;
 }
 
@@ -189,14 +188,12 @@ padding: 10px 20px;
   width: 100%;
 }
 
-.contact{
-  
+.contact {
   padding: 1rem;
   text-align: center;
 }
 
 section {
-
   padding: 2em;
 }
 
@@ -224,16 +221,13 @@ section {
 .form-group.radio p {
   margin-bottom: 5px;
   font-weight: bold;
-  display:flex;
-  
 }
 
 .form-group.radio label,
 .form-group.checkbox label {
-  display:inline-block;
+  display: inline-block;
   margin-bottom: 5px;
   font-weight: normal;
-
 }
 
 .form-group textarea {
@@ -286,14 +280,12 @@ section {
   opacity: 1;
   margin-bottom: 1rem;
   padding: 0;
-  text-size-adjust: 2px;
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
 
-.contact h2, p {
+.contact p {
   color: var(--accent1-color);
   font-size: 1.3rem;
   margin: 0;
   padding: 0;
-
 }
