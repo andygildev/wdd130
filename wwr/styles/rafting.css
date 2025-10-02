@@ -188,3 +188,93 @@ padding: 10px 20px;
 .adventure-contents img {
   width: 100%;
 }
+
+.contact{
+  
+  padding: 1rem;
+  text-align: center;
+}
+
+section {
+
+  padding: 2em;
+}
+
+.contact-input {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 20px;
+  max-width: 100%;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin: 2rem auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group.radio p {
+  margin-bottom: 5px;
+  font-weight: bold;
+  display:flex;
+  
+}
+
+.form-group.radio label,
+.form-group.checkbox label {
+  display:inline-block;
+  margin-bottom: 5px;
+  font-weight: normal;
+
+}
+
+.form-group textarea {
+  height: 120px;
+}
+
+.submit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: steelblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 350px;
+}
+
+.msg {
+  display: flex;
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: .4rem;
+  margin: .3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  width: 350px;
+  margin: 0;
+}
+
+.radio {
+  border: 1px solid #ccc;
+}
+
+.employee h2 {
+  text-align: center;
+}
