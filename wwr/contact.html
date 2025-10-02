@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Contact us to book your white water rafting adventure, ask questions, or get help with group reservations. We're here to help you plan!">
+        content="Get in touch with White Water Rafting Company. Book trips, ask questions, or plan your next group adventure with our team.">
     <meta name="author" content="Andrew Nafagha">
     <link rel="stylesheet" href="styles/rafting.css">
-    <title>Contact | White Water Rafting</title>
+    <title>Contact | White Water Rafting Company</title>
+
 </head>
 
 <body>
@@ -31,7 +32,7 @@
     <main>
         <!-- Contact Section -->
         <div class="contact">
-            <h2>White Water Rafting Company</h2>
+            <h1>White Water Rafting Company</h1>
             <h3>123 Main River Street</h3>
             <h3>Kolob, California</h3>
             <h3>+1 999 999 9999</h3>
@@ -52,19 +53,25 @@
 
                 <div class="form-group">
                     <label for="username">Name</label>
-                    <input id="username" name="username" required>
+                    <input type="text" id="username" name="username" required>
                 </div>
 
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input id="email" name="email" required>
+                    <input type="email" id="email" name="email" required>
                 </div>
 
                 <div class="form-group radio">
                     <p>Message Purpose</p>
-                    <label><input type="radio" name="purpose" value="inquiry" required> General Inquiry</label><br>
-                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
-                    <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+
+                    <input type="radio" id="purpose-inquiry" name="purpose" value="inquiry" required>
+                    <label for="purpose-inquiry">General Inquiry</label><br>
+
+                    <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                    <label for="purpose-reservation">Reservation Question</label><br>
+
+                    <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
+                    <label for="purpose-suggestion">Website Suggestion</label>
                 </div>
 
                 <div class="form-group">
@@ -82,6 +89,7 @@
                 </div>
 
             </form>
+
         </section>
 
         <!-- Employee Section -->
