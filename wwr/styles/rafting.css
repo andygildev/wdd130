@@ -289,3 +289,12 @@ section {
   margin: 0;
   padding: 0;
 }
+
+.trips-grid img {
+  width: 30%;
+}
+
+.trip-p {
+  text-align: center;
+
+}
